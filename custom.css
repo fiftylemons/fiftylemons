@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  margin: 0px;
+  background: ffffff;
+}
+
+.navbar {
+  background: lightgrey;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.dida {
+  font-style: normal;
+    color: black;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.note {
+  font-style: normal;
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+  background-color: ffffff;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: justify;
+}
+  
+.autore {
+  font-style: normal;
+  text-decoration: underline;
+  color: black;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+}
+  
+.navbar-custom {
+  background-color: orange;
+}
+
+
+#sfondo_1{
+  height: 100px;
+  background-color: lightgrey;
+  mask-background;
+  
+}
+
+#sfondo_2 {
+  height: 200px;
+  background-color: lightgrey;
+  background-image: url("img/map_afar.jpg");
+  background-repeat: no-repeat;
+}
